@@ -18,16 +18,11 @@ public class Square extends Figure {
 
     @Override
     public double getArea() {
-        return Math.pow(this.side, 2);
+        return Math.pow(side, 2);
     }
 
     @Override
     public String drawFigure() {
-        return "Тут мав бути квадрат.";
-    }
-
-    @Override
-    public String toString() {
         return "Фігура: квадрат, площа: " + this.getArea()
                 + " кв. од., довжина сторони: " + this.getSide()
                 + " од., колір: " + this.getColor().getValue();

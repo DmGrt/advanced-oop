@@ -47,11 +47,6 @@ public class Trapeze extends Figure {
 
     @Override
     public String drawFigure() {
-        return "Тут мала бути трапеція.";
-    }
-
-    @Override
-    public String toString() {
         return "Фігура: трапеція, площа: " + this.getArea()
                 + " кв. од., довжина середньої лінії: " + (base1 + base2) / 2
                 + " од., колір: " + this.getColor().getValue();

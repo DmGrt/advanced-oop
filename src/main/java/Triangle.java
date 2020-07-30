@@ -31,7 +31,7 @@ public class Triangle extends Figure {
     }
 
     public double getHypotenuse() {
-        return this.hypotenuse;
+        return hypotenuse;
     }
 
     public double getPerimeter() {
@@ -46,11 +46,6 @@ public class Triangle extends Figure {
 
     @Override
     public String drawFigure() {
-        return "Тут мав бути трикутник.";
-    }
-
-    @Override
-    public String toString() {
         return "Фігура: трикутник, площа: " + this.getArea()
                 + " кв. од., довжина гіпотенузи: " + this.getHypotenuse()
                 + " од., периметр: " + this.getPerimeter()

@@ -9,8 +9,6 @@ public abstract class Figure {
 
     public abstract String drawFigure();
 
-    public abstract String toString();
-
     public Colors getColor() {
         return this.color;
     }
